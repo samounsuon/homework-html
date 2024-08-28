@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px 100px;
+}
+nav{
+    flex: 1;
+    background-color: rgb(32, 51, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    padding-left: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    flex: 7;
+    /* background-color: rgb(73, 134, 114); */
+}
+.boxes{
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+.box{
+    margin: 5px 0px;
+    width: 20%;
+    height: 200px;
+    background-color: rgb(186, 186, 186);
+    box-shadow: 1px 1px 1px gray;
+}
+.flex-grow{
+    flex-grow: 1;
+}
